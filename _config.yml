@@ -5,7 +5,7 @@ header-img: img/home-bg.png
 email: sam.e.markham@gmail.com
 copyright_name: Sam Markham
 description: > # this means to ignore newlines until "baseurl:"
-  Pretty much what it says on the tin!
+  A blog for my coding journey
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  sharkham
