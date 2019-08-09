@@ -9,8 +9,6 @@ When it came time to make my first application using Ruby, I knew pretty quickly
 
 My partner and I run a homebrew Pokémon Tabletop RPG, so a generator app to give our players three randomized choices of Pokémon partner was something I was interested in, fit within the scope of the app I wanted to build, and was something I could actually use in real life! 
 
-![](https://images.app.goo.gl/hsf9XjDV4FUVi3Rp9)
-
 When it came time to actually put this together though, the biggest problem I ran into was scraping.
 
 Scraping was something I fumbled through in the Flatiron labs on the subject but didn’t really feel like I had *learned*. I knew enough to make the `rspec` tests pass and, well, I didn’t have the time to dive further in at the time. 
@@ -54,5 +52,3 @@ Without getting into the *really specific* Pokémon worldbuilding reasons for th
 As a side effect of this, my app was only able to randomly generate from a list of 721 Pokémon instead of 809, but I’m still considering it a win. That is a lot of Pokémon! 
 
 Going through this process I learned a lot about how scraping with Nokogiri works, and became a lot more comfortable digging through raw data to find what I wanted. Scraping this way, step by step through all of the elements on the page, is definitely the long way around, but for complex websites you really want to grab some data from, it’s worth it! 
-
-<iframe src="https://giphy.com/embed/gQ8qWas3GxlPq" width="480" height="332" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/pokemon-high-five-gQ8qWas3GxlPq">via GIPHY</a></p>
