@@ -13,7 +13,7 @@ When it came time to actually put this together though, the biggest problem I ra
 
 Scraping was something I fumbled through in the Flatiron labs on the subject but didn’t really feel like I had *learned*. I knew enough to make the `rspec` tests pass and, well, I didn’t have the time to dive further in at the time. 
 
-Scraping an actual webpage for data I actually wanted to use didn’t leave me much choice—and that ended up being a good thing!
+Scraping an actual webpage for data I actually wanted to use didn’t leave me much choice, I had to go a lot deeper—and that ended up being a good thing!
 
 ![The website I was trying to scrape](https://lh3.googleusercontent.com/ijCWyixm3yGpPqz7I7980oHcbCzQCr-PAc1WrP4roJPo-Xby8aQj5rVjN2gmQbZdpO-5UhfblaPjIlFBhrW547QNwU7Z6AcwNfa6wC85Lj2J2gmTTZO4pcfL3n9TaV7JtJmNYdgV-w=w2400)
 >The website I was trying to scrape, with relevant section indicated in yellow.
