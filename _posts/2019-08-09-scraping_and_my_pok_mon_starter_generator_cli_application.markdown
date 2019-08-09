@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Scraping and my CLI application"
+title:      "Scraping a complicated website for my CLI application"
 date:       2019-08-09 16:23:26 -0400
 permalink:  scraping_and_my_pok_mon_starter_generator_cli_application
 ---
