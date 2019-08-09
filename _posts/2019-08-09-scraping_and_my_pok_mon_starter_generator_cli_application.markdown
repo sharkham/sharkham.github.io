@@ -16,7 +16,7 @@ Scraping was something I fumbled through in the Flatiron labs on the subject but
 Scraping an actual webpage for data I actually wanted to use didn’t leave me much choice—and that ended up being a good thing!
 
 ![The website I was trying to scrape](https://lh3.googleusercontent.com/ijCWyixm3yGpPqz7I7980oHcbCzQCr-PAc1WrP4roJPo-Xby8aQj5rVjN2gmQbZdpO-5UhfblaPjIlFBhrW547QNwU7Z6AcwNfa6wC85Lj2J2gmTTZO4pcfL3n9TaV7JtJmNYdgV-w=w2400)
->Pictured: the website I was trying to scrape 
+>The website I was trying to scrape, with relevant section indicated in yellow.
 
 As of the current series of Pokémon games, there are 809 Pokémon. Since the games are rather complex, each Pokémon has a lot of information on it. For the website I was scraping, this meant pages with a very nested table structure with some very genericly named CSS selectors to look through. 
 
@@ -31,7 +31,7 @@ Yeaaaaah. It’s a lot. And it didn’t work, either.
 A few results of an empty array later, I knew I was going to have to take it one step at a time to figure out where the problem was. 
 
 ![Writing out all the CSS selectors in my notebook to keep track of them](https://lh3.googleusercontent.com/U1WdvGk0GxAf3o8nUr_EwhwdXDO-jB9AcYslUcLg6RstaEIxI156w79li6b6ogPx9p8HrSUJ2lB6a9CB9dFR-k_aVns449zR8K_aw3B05o3aVKgb3BP8lyj5ltba0OrOHay3EnTFpA=w2400)
-> Pictured: writing out all the CSS selectors in my notebook to keep track of them
+> Writing out all the CSS selectors in my notebook to keep track of them.
 
 As I've been learning, this is a good way to look at a coding problem in general. If something's broken, go through it bit by bit to see where. I ran the method again, and again, each time with one more CSS selector than before, each time looking carefully through the site's HTML in the inspector to see how it matched up with the Nokogiri object output by my terminal. If the element in my terminal had the same attributes as the element in the website inspector, I went down another level. 
 
