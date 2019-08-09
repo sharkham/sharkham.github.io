@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Scraping and my Pokémon Starter Generator CLI application"
-date:       2019-08-09 20:23:25 +0000
+title:      "Scraping and my CLI application"
+date:       2019-08-09 16:23:26 -0400
 permalink:  scraping_and_my_pok_mon_starter_generator_cli_application
 ---
 
