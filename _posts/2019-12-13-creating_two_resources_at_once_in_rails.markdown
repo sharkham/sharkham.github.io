@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Creating two resources 'at once' in Rails"
-date:       2019-12-14 02:00:23 +0000
+date:       2019-12-13 21:00:24 -0500
 permalink:  creating_two_resources_at_once_in_rails
 ---
 
 
-For my Rails project for Flatiron, the thing that stumped me for the longest time was my models. One of the requirements was using a has-many-through relationship, and not only that, the join table had to have a user-submitted attribute on it. It couldn't be purely a join table, only used in the back end to hook up two models and not showing up in the actual front end of the app in any way. 
+For my Rails project for Flatiron, the thing that stumped me for the longest time was my models. One of the requirements was using a `has-many-through` relationship, and not only that, the join table had to have a user-submitted attribute on it. It couldn't be purely a join table, only used in the back end to hook up two models and not showing up in the actual front end of the app in any way. 
 
 As what I wanted to make was a collaborative writing app, for writers of group novels to be able to easily work on their projects with their collaborators online, I needed users to have many novels and novels to have many users as well. What I eventually settled on was a join table of membership--a user could have an "admin" membership to a novel, with full access to editing and deleting functions, or a "member" membership to a novel, able to view and edit pieces of it but with less permissions overall. 
 
@@ -71,7 +71,7 @@ Finally, the controller methods, in `novels_controller.rb` in my app:
     end
   end
 	
-	  private
+	private
 
   def novel_params
     params.require(:novel).permit(
