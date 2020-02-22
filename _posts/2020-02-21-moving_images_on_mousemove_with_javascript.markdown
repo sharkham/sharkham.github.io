@@ -52,7 +52,7 @@ Images are `draggable` by default, an attribute necessary for dragging events to
       this.isMoving = true
     }
   }
-	```
+```
 	
 The first part of all of the rest of these methods was preventing the default action so I could set my own actions up. From `onMouseDown` I needed to access the target being clicked, in this case the image that was being dragged, and if it was the target I wanted to move (if its id included `pokesprite` in this case), I had to make adjustments to it so it could be moved. 
 
