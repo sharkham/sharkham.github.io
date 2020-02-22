@@ -72,7 +72,9 @@ onMouseMove(e) {
 		moveAt(event.pageX, event.pageY)
 	}
 }
+```
 
+```
 onMouseUp(e) {
 	e.preventDefault()
 	if (this.isMoving === true && movingSprite.id.includes("pokesprite")) {
