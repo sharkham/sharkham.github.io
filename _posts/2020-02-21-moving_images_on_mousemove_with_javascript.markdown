@@ -1,13 +1,11 @@
 ---
 layout: post
-title:      "Moving images on mousemove with JavaScript"
+title:      "Dragging images with mousemove in JavaScript"
 date:       2020-02-21 20:13:20 -0500
 permalink:  moving_images_on_mousemove_with_javascript
 ---
 
 After reaching a certain point in learning JavaScript, I knew immediately what kind of web app I wanted to build with it when it came time to do a project. How much control JavaScript gives you over your front end seemed like a perfect fit for making another Pokémon website (no one can say I don't have hobbies!), this one with Pokémon sprites sized to how tall they would actually be relative to their trainers. After getting this set up, the thing I wanted most to do next was be able to drag them around so a user could create images of their trainer "posing" with their Pokémon. 
-
-![Example of positioned Pokémon: some pokésnakes](https://lh3.googleusercontent.com/nJzc4KOEIx4R7fDsFUj8SjqBNjSCDsYBcLhf5ZNfhaVg29TcdvCahhYF0gxAS17quXI3Kudsnh17sh0LcdODqFEFV4QWUV7OKmiURAN64lnspzqyBOrO-Hwt0E2wMePyqeis8vuP0Q=w2400)
 
 This is where I hit a snag. My initial thought was to do movement through arrow keys, but this would be too many events and therefore too many PATCH fetch requests for my server. When it hit me to check google to see if there was a "drag" event listener I was elated to find one, but after hours perusing this documentation, it became clear to me that though the behaviour of this event looked similar to the behaviour I wanted, how it worked on the backend was quite different. The drag event listeners do involve moving elements, but are mostly concerned with transferring element data from one node to another (e.g. dragging an item from being a child of your "to do" list to be a child of your "done" list instead), not  with the page position the item was being dragged to. 
 
