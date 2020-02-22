@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Moving images on mousemove with JavaScript"
-date:       2020-02-22 01:13:19 +0000
+date:       2020-02-21 20:13:20 -0500
 permalink:  moving_images_on_mousemove_with_javascript
 ---
 
