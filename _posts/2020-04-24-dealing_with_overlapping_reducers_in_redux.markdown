@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Dealing with overlapping reducers in Redux"
-date:       2020-04-25 02:56:13 +0000
+date:       2020-04-24 22:56:14 -0400
 permalink:  dealing_with_overlapping_reducers_in_redux
 ---
 
