@@ -6,11 +6,11 @@ permalink:  forgot_reset_password_functionality_with_rails_and_react_and_redux
 ---
 
 
-For my final project with Flatiron, I have been building an app that tracks novel writing progress for a novel contest. It's actually been built for a specific novel contest, and through building the app, I knew my goal was to, as soon as I had passed the project requirements, actually deploy it for use. 
+For my final project with Flatiron, I have been building an app that tracks novel writing progress for novel contests. I have actually built it for a specific novel contest, so throughout coding it, I knew my goal once I had finished the basic functionality was to deploy it for use. 
 
 The biggest thing that stuck out to me as necessary for this was forgot/reset password functionality. I could do an admin controller later, fix my styling later, et cetera, but if I had live users and they were forgetting their passwords, this would be a problem. 
 
-Many hours later, I had done enough reesarch and trial and error to build a solution. 
+Many hours later, I had done enough research and trial and error to build a solution. 
 
 Before I get into it, a bit of a disclaimer--if you're logging in users through a Rails API backend, this is really a Rails issue. There are a few good tutorials on how to do this functionality with only Rails already. I drew heavily from them for my solution (and will link them later!), but what I wasn't able to find was something incorporating React to do this. Honestly, there are _good reasons for this_, which I will get into later! But, if you are looking to use Rails only for the backend of password resets and React with Redux for the front end, read on! 
 
@@ -245,6 +245,9 @@ class ForgotPassword extends Component {
 export default withRouter(ForgotPassword);
 ```
 
+![ForgotPassword component](https://lh3.googleusercontent.com/VyOyXwFwnJivaGDtqAmLNG1NAM2DBi8KK7eirB1BgPLFAm5qyVbujr0udNtNk2yDyVfna3G1KMz4zYJiPaJUpnXUYekLbcMzJj8EjapRmsqPe8gFrJw2L0ulhhbdjDM-zs_1m_3fug=w2400)
+> My ForgotPassword component! Please note this isn't exactly the code above--I removed styling with reactstrap to make the code in this post easier to read.
+
 This is a basic class component with a controlled form, but on submit, two important things are happening: 
 1. The user's email is submitted to the `forgotPassword` method being called from the `helpers/passwords.js` file
 2. The user is being redirected back to the home page with `this.props.history.push()`, and this method is possible to use here because of the last line: `withRouter(ForgotPassword)`. 
@@ -345,6 +348,9 @@ const mapDispatchToProps = dispatch => {
 
 export default connect(null, mapDispatchToProps)(ResetPassword);
 ```
+
+![ResetPassword component](https://lh3.googleusercontent.com/7AvSs2-9Q8Q-CzQbv5AyWOogZmS0te-afTy9xC-mAgya4zDfq-IaQLxXFTZHpXgO3SLETXpG1woKgRjfTt3XF4IfYrTL-DBe8wb-r83ykhtCckVlqxb2dyDj-GBpp5iJ6qamjW7EXA=w2400)
+> My ResetPassword component! As with the previous screenshot, this also includes reactstrap styling not included in my code here for simplicity's sake.
 
 A little more is going on here! First, in `handleSubmit`, an alert fires and the `password` and `password_confirmation` fields reset to blank values if they don't match, to make sure the user is really resetting their password to the right thing. Second, if everything is in order on the form, `resetPassword` fires. 
 
