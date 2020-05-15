@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Deploying a React (with Redux)/Rails app with Netlify/Heroku"
-date:       2020-05-15 23:18:16 +0000
+date:       2020-05-15 19:18:17 -0400
 permalink:  deploying_a_react_with_redux_rails_app_with_netlify_heroku
 ---
 
@@ -145,7 +145,7 @@ Add this line to your `.env` file (assuming you've set your port to 3001 on the 
 FRONT_END_URL='http://localhost:3001'
 ```
 
-In Heroku, create a new `FRONT_END_URL` config variable and set it to your Netlify app URL. 
+On the Heroku dashboard, go into settings, down to Config Vars, and create a new `FRONT_END_URL` config variable and set it to your Netlify app URL. 
 
 Remember, modifications to the `cors.rb` file mean you need to restart your Rails server on the backend, and also, the change may take a minute or two to take effect in your Heroku app file too. 
 
