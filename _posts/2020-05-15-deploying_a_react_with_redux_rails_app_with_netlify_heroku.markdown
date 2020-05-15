@@ -20,7 +20,7 @@ Alright, so you've built your React/Rails project, you have a Postgres database 
 
 The first step is getting your backend up on Heroku. Start by making an account on Heroku, and then navigate to [this tutorial](https://devcenter.heroku.com/articles/getting-started-with-rails6). It will prompt you to [install the Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install), log in on the command line with `heroku login`, and then configure your `config/database.yml` file. 
 
-What is on the Rails 6 tutorial works for this, but there is a lot of text there, so for simplicity's sake, this is what worked for me: 
+What is on the tutorial works for this, but there is a lot of text there, so for simplicity's sake, this is what worked for me: 
 ```
 default: &default
   adapter: postgresql
