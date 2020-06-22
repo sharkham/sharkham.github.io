@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "6 things I learned from my first mock technical interview"
-date:       2020-06-18 21:18:10 +0000
+date:       2020-06-18 17:18:11 -0400
 permalink:  6_things_i_learned_from_my_first_mock_technical_interview
 ---
 
@@ -37,7 +37,7 @@ The interviewer wants you to solve the problem in front of you, or at least as m
 The main thing I forgot during my technical interview was: I'm not a student anymore. As a student it's alright to say, "I know there's a better function for this, can you remind me of what it is?", but as a job seeker, you need to project confidence. Focus on the parts of the question in front of you that you can solve, use methods you're confident with--overall, employers want to see your problem solving skills but they also want to know you can handle yourself without handholding. It's okay to admit to not knowing something if asked directly, or if it comes up, but overall, you'll look like a much stronger interview candidate if you can solve the problem in front of you showing off what skills you do have (and what things you do remember) instead. 
 
 
-In the end, I did not pass my mock technical interview, but I learned a lot of valuable information about what to do and what not to do during the real thing, and I have spent the past few days putting my skills to the test solving the problem I was given during the interview--and then solving it again in a better and more efficient manner. (It was a tough one!)
+During my mock technical interview I learned a lot of valuable information about what to do and what not to do during the real thing, and I have spent the past few days putting my skills to the test finishing my solution to the problem I was given during the interview--and then solving it again in a better and more efficient manner. (It was a tough one!)
 
 The one thing I wish I did more of before the interview itself? 
 
